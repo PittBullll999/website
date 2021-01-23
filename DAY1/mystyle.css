@@ -1,0 +1,78 @@
+* {box-sizing:border-box}
+.header {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.header a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  
+}
+.header a:hover{
+  background-color:blueviolet;
+}
+.navbar{
+  color: #333;
+  padding: 20px 20px;
+  height: 120px;
+  background-color: rgb(146, 144, 141);
+  
+}
+.button a{
+  display: block;
+  color: #333;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 65%; /* IE10 */
+  flex: 65%;
+  background-color: rgb(139, 60, 60);
+  padding: 20px;
+}
+.right{
+  -ms-flex: 150%; /* IE10 */
+  flex: 15%;
+  background-color: rgb(103, 48, 134);
+  padding: 20px;
+
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.navbar h1{
+  padding: 0%;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  position: -ms-page;
+}
